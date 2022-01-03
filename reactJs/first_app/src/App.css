@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  background-color: purple;
+  min-height: 100vh;
+  margin: auto 0;
+}
+
+.record-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0px auto;
+
+  background-color: tomato;
+}
+
+.record {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.record-price {
+  flex-basis: 40%;
+}
+.record-name {
+  flex-basis: 30%;
+}
+
+.record-btn {
+  flex-basis: 20%;
+}
+
+.record .record-name span {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.record .record-index span {
+  color: whitesmoke;
+}
+
+.record .record-price span {
+  font-weight: bold;
+
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.input-container input {
+  padding: 10px;
+  margin: 20px;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.record-submit {
+  font-size: 20px;
+  /* background-color: rgb(0, 0, 0); */
+  color: whitesmoke;
+}
